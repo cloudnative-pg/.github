@@ -23,7 +23,7 @@ organization to this list!
 
 ## Getting in touch
 
-- [Slack Channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-237bhehx3-htDW2kz2hKJxEhn1W4VTnw)
+- [Slack Channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-2ij5hagfo-B04EQ9DUlGFzD6GEHDqE0g)
 - [Github Discussions](https://github.com/cloudnative-pg/cloudnative-pg/discussions)
 - [Twitter](https://twitter.com/CloudNativePg)
 
