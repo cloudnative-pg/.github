@@ -76,9 +76,9 @@ CloudNativePG was originally built and sponsored by <a href="https://www.enterpr
 
 <p style="text-align:center;" align="center">
       <picture align="center">
-         <source media="(prefers-color-scheme: dark)" srcset="/logo/edb-white.svg">
-         <source media="(prefers-color-scheme: light)" srcset="/logo/edb-blue.svg">
-         <img align="center" src="/logo/edb-blue.svg" alt="EDB logo" width="25%"/>
+         <source media="(prefers-color-scheme: dark)" srcset="/logo/edb_landscape_color_white.svg">
+         <source media="(prefers-color-scheme: light)" srcset="/logo/edb_landscape_color_grey.svg">
+         <img align="center" src="/logo/edb_landscape_color_grey.svg" alt="EDB logo" width="25%"/>
       </picture>
 </p>
 
