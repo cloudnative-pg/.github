@@ -23,14 +23,14 @@ organization to this list!
 
 ## Getting in touch
 
-- [Slack Channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-2ij5hagfo-B04EQ9DUlGFzD6GEHDqE0g)
+- [Slack Channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-2zwwqipes-uid14OHUGpFAHtPODlzV4g)
 - [Github Discussions](https://github.com/cloudnative-pg/cloudnative-pg/discussions)
-- [Twitter](https://twitter.com/CloudNativePg)
+- [X](https://x.com/CloudNativePg)
 
 ## Ask for Help
 
 The best way to reach us with a question when contributing is to drop a line in
-our [Slack channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-237bhehx3-htDW2kz2hKJxEhn1W4VTnw), or
+our [Slack channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-2zwwqipes-uid14OHUGpFAHtPODlzV4g), or
 start a new Github discussion.
 
 ## Contributing
