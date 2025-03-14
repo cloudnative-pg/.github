@@ -23,15 +23,11 @@ organization to this list!
 
 ## Getting in touch
 
-- [Slack Channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-2ij5hagfo-B04EQ9DUlGFzD6GEHDqE0g)
 - [Github Discussions](https://github.com/cloudnative-pg/cloudnative-pg/discussions)
+- [Slack Channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-30a6l6bp3-u1lNAmh~N02Cfiv2utKTFg)
 - [Twitter](https://twitter.com/CloudNativePg)
-
-## Ask for Help
-
-The best way to reach us with a question when contributing is to drop a line in
-our [Slack channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-237bhehx3-htDW2kz2hKJxEhn1W4VTnw), or
-start a new Github discussion.
+- [Mastodon](https://mastodon.social/@CloudNativePG)
+- [Bluesky](https://bsky.app/profile/cloudnativepg.bsky.social)
 
 ## Contributing
 
@@ -62,11 +58,19 @@ own ideas, and experiences.
 
 CloudNativePG is licensed under the [Apache License, Version 2.0](https://github.com/cloudnative-pg/governance/blob/main/LICENSE).
 
-## Trademarks
+---
 
-*[Postgres, PostgreSQL and the Slonik Logo](https://www.postgresql.org/about/policies/trademarks/)
-are trademarks or registered trademarks of the PostgreSQL Community Association
-of Canada, and used with their permission.*
+<p align="center">
+We are a <a href="https://www.cncf.io/sandbox-projects/">Cloud Native Computing Foundation sandbox project</a>.
+</p>
+
+<p style="text-align:center;" align="center">
+      <picture align="center">
+         <source media="(prefers-color-scheme: dark)" srcset="https://github.com/cncf/artwork/blob/main/other/cncf/horizontal/white/cncf-white.svg?raw=true">
+         <source media="(prefers-color-scheme: light)" srcset="https://github.com/cncf/artwork/blob/main/other/cncf/horizontal/color/cncf-color.svg?raw=true">
+         <img align="center" src="https://github.com/cncf/artwork/blob/main/other/cncf/horizontal/color/cncf-color.svg?raw=true" alt="CNCF logo" width="50%"/>
+      </picture>
+</p>
 
 ---
 
@@ -82,10 +86,15 @@ CloudNativePG was originally built and sponsored by <a href="https://www.enterpr
       </picture>
 </p>
 
+---
 
+<p align="center">
+<a href="https://www.postgresql.org/about/policies/trademarks/">Postgres, PostgreSQL and the Slonik Logo</a>
+are trademarks or registered trademarks of the PostgreSQL Community Association
+of Canada, and used with their permission.
+</p>
 
-
-
+---
 
 [stackoverflow]: https://stackoverflow.com/questions/tagged/cloudnative-pg
 [latest-release]: https://github.com/cloudnative-pg/cloudnative-pg/releases/latest
