@@ -23,9 +23,11 @@ organization to this list!
 
 ## Getting in touch
 
-- [Slack Channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-2ij5hagfo-B04EQ9DUlGFzD6GEHDqE0g)
 - [Github Discussions](https://github.com/cloudnative-pg/cloudnative-pg/discussions)
+- [Slack Channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-30a6l6bp3-u1lNAmh~N02Cfiv2utKTFg)
 - [Twitter](https://twitter.com/CloudNativePg)
+- [Mastodon](https://mastodon.social/@CloudNativePG)
+- [Bluesky](https://bsky.app/profile/cloudnativepg.bsky.social)
 
 ## Ask for Help
 
@@ -62,11 +64,19 @@ own ideas, and experiences.
 
 CloudNativePG is licensed under the [Apache License, Version 2.0](https://github.com/cloudnative-pg/governance/blob/main/LICENSE).
 
-## Trademarks
+---
 
-*[Postgres, PostgreSQL and the Slonik Logo](https://www.postgresql.org/about/policies/trademarks/)
-are trademarks or registered trademarks of the PostgreSQL Community Association
-of Canada, and used with their permission.*
+<p align="center">
+CloudNativePG is a <a href="https://www.cncf.io/sandbox-projects/">Cloud Native Computing Foundation sandbox project</a>.
+</p>
+
+<p style="text-align:center;" align="center">
+      <picture align="center">
+         <source media="(prefers-color-scheme: dark)" srcset="https://github.com/cncf/artwork/blob/main/other/cncf/horizontal/color/cncf-white.svg?raw=true">
+         <source media="(prefers-color-scheme: light)" srcset="https://github.com/cncf/artwork/blob/main/other/cncf/horizontal/color/cncf-black.svg?raw=true">
+         <img align="center" src="https://github.com/cncf/artwork/blob/main/other/cncf/horizontal/color/cncf-color.svg?raw=true" alt="EDB logo" width="25%"/>
+      </picture>
+</p>
 
 ---
 
@@ -82,10 +92,13 @@ CloudNativePG was originally built and sponsored by <a href="https://www.enterpr
       </picture>
 </p>
 
+---
 
+*[Postgres, PostgreSQL and the Slonik Logo](https://www.postgresql.org/about/policies/trademarks/)
+are trademarks or registered trademarks of the PostgreSQL Community Association
+of Canada, and used with their permission.*
 
-
-
+---
 
 [stackoverflow]: https://stackoverflow.com/questions/tagged/cloudnative-pg
 [latest-release]: https://github.com/cloudnative-pg/cloudnative-pg/releases/latest
