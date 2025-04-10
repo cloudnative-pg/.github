@@ -24,7 +24,8 @@ organization to this list!
 ## Getting in touch
 
 - [Github Discussions](https://github.com/cloudnative-pg/cloudnative-pg/discussions)
-- [Slack Channel](https://join.slack.com/t/cloudnativepg/shared_invite/zt-30a6l6bp3-u1lNAmh~N02Cfiv2utKTFg)
+- [Slack](https://cloud-native.slack.com/archives/C08MAUJ7NPM)
+  (join the [CNCF Slack Workspace](https://communityinviter.com/apps/cloud-native/cncf)).
 - [Twitter](https://twitter.com/CloudNativePg)
 - [Mastodon](https://mastodon.social/@CloudNativePG)
 - [Bluesky](https://bsky.app/profile/cloudnativepg.bsky.social)
@@ -49,10 +50,10 @@ yourself is more than enough. Over time, we hope that you feel comfortable
 voicing your opinions, giving feedback on others’ ideas, and even sharing your
 own ideas, and experiences.
 
-| What               | When                                                | Where                                                                                                      | Notes                                                                                                              |
-| ------------------ | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| What               | When                                                | Where                                                                                                      | Notes                                                                                                            |
+| ------------------ | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Developers meeting | First and third Wednesday of each month, 4PM CET/CEST | [Zoom](https://enterprisedb.zoom.us/j/95167522706?pwd=WTJxZFRVUUFBNHVrL3hSVDhuMXdQUT09) (Passcode: 278691) | [Agenda/minutes](https://docs.google.com/document/d/1Bmf2AZG5WLKAyESJbYk7MbsfiuD3jgdIDQrDkNuKT9w/edit?usp=sharing), [Calendar](https://calendar.google.com/calendar?cid=NTRuNzMxMjY5aDNhcDN1cGs4MzdyYW9naThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) |
-| Office Hours meeting | Fourth Wednesday of each month, 4PM CET/CEST | [Zoom](https://enterprisedb.zoom.us/j/95167522706?pwd=WTJxZFRVUUFBNHVrL3hSVDhuMXdQUT09) (Passcode: 278691) | It’s a free-form meeting, we can look at problems, discuss PR’s or Issues etc. There’s the [#office-hours](https://cloudnativepg.slack.com/archives/C05RKMLTY1F) channel available if you want to mention something relating to office hours (today or future sessions). |
+| Office Hours meeting | Fourth Wednesday of each month, 4PM CET/CEST | [Zoom](https://enterprisedb.zoom.us/j/95167522706?pwd=WTJxZFRVUUFBNHVrL3hSVDhuMXdQUT09) (Passcode: 278691) | It’s a free-form meeting, we can look at problems, discuss PR’s or Issues etc. |
 
 ## License
 
