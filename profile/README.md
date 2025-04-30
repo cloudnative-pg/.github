@@ -52,7 +52,7 @@ own ideas, and experiences.
 
 | What               | When                                                | Where                                                                                                      | Notes                                                                                                            |
 | ------------------ | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Developers meeting | First and third Wednesday of each month, 4PM CET/CEST | [Zoom](https://enterprisedb.zoom.us/j/95167522706?pwd=WTJxZFRVUUFBNHVrL3hSVDhuMXdQUT09) (Passcode: 278691) | [Agenda/minutes](https://docs.google.com/document/d/1Bmf2AZG5WLKAyESJbYk7MbsfiuD3jgdIDQrDkNuKT9w/edit?usp=sharing), [Calendar](https://calendar.google.com/calendar?cid=NTRuNzMxMjY5aDNhcDN1cGs4MzdyYW9naThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) |
+| Developers meeting | First and third Wednesday of each month, 4PM CET/CEST | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg?view=week&occurrence=1746626400) | [Agenda/minutes](https://docs.google.com/document/d/1Bmf2AZG5WLKAyESJbYk7MbsfiuD3jgdIDQrDkNuKT9w/edit?usp=sharing), [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg) |
 | Office Hours meeting | Fourth Wednesday of each month, 4PM CET/CEST | [Zoom](https://enterprisedb.zoom.us/j/95167522706?pwd=WTJxZFRVUUFBNHVrL3hSVDhuMXdQUT09) (Passcode: 278691) | It’s a free-form meeting, we can look at problems, discuss PR’s or Issues etc. |
 
 ## License
