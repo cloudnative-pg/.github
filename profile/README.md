@@ -50,10 +50,10 @@ yourself is more than enough. Over time, we hope that you feel comfortable
 voicing your opinions, giving feedback on others’ ideas, and even sharing your
 own ideas, and experiences.
 
-| What               | When                                                | Where                                                                                                      | Notes                                                                                                            |
-| ------------------ | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Developers meeting | First and third Wednesday of each month, 4PM CET/CEST | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg?view=week&occurrence=1746626400) | [Agenda/minutes](https://docs.google.com/document/d/1Bmf2AZG5WLKAyESJbYk7MbsfiuD3jgdIDQrDkNuKT9w/edit?usp=sharing), [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg) |
-| Office Hours meeting | Fourth Wednesday of each month, 4PM CET/CEST | [Zoom](https://enterprisedb.zoom.us/j/95167522706?pwd=WTJxZFRVUUFBNHVrL3hSVDhuMXdQUT09) (Passcode: 278691) | It’s a free-form meeting, we can look at problems, discuss PR’s or Issues etc. |
+| What                         | When                                        | Where                                                                                                        | Notes                                                                                                            |
+|------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------| ---------------------------------------------------------------------------------------------------------------- |
+| Community/Developers meeting | Every fourth Wednesday, 4PM CET/CEST        | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg?view=week&occurrence=1746626400) | [Agenda/minutes](https://docs.google.com/document/d/1Bmf2AZG5WLKAyESJbYk7MbsfiuD3jgdIDQrDkNuKT9w/edit?usp=sharing), [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg) |
+| Office Hours meeting         | Third Wednesday of each month, 4PM CET/CEST | [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg)                             | It’s a free-form meeting, we can look at problems, discuss PR’s or Issues etc. |
 
 ## License
 
