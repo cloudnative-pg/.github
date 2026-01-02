@@ -55,14 +55,15 @@ own ideas, and experiences.
 | Community/Developers meeting | Every fourth Wednesday, 4PM CET/CEST        | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg?view=week&occurrence=1746626400) | [Agenda/minutes](https://notes.cncf.io/f3dw2PK5TZqcokeWZFbHcw), [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg) |
 | Office Hours meeting         | Third Wednesday of each month, 4PM CET/CEST | [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg)                             | It’s a free-form meeting, we can look at problems, discuss PR’s or Issues etc.                                                                                                                                                                   |
 
-### Pass Community/Developers meetings agenda per year
+### Community/Developers meetings agenda per year
 
-| Year | Agenda                             |
-|------|------------------------------------|
-| 2025 | https://notes.cncf.io/s/pq63dhDKZ  |
-| 2024 | https://notes.cncf.io/s/9u6CJT5va  |
-| 2023 | https://notes.cncf.io/s/MNZhOb98P  |
-| 2022 | https://notes.cncf.io/s/L-f5bulgJ  |
+| Year | Agenda                                       |
+|------|----------------------------------------------|
+| 2026 | https://notes.cncf.io/f3dw2PK5TZqcokeWZFbHcw |
+| 2025 | https://notes.cncf.io/s/pq63dhDKZ            |
+| 2024 | https://notes.cncf.io/s/9u6CJT5va            |
+| 2023 | https://notes.cncf.io/s/MNZhOb98P            |
+| 2022 | https://notes.cncf.io/s/L-f5bulgJ            |
 
 ## License
 
