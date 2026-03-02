@@ -6,49 +6,51 @@
 [![Documentation][documentation-badge]][documentation]
 [![Stack Overflow](https://img.shields.io/badge/stackoverflow-cloudnative--pg-blue?logo=stackoverflow&logoColor=%23F48024&link=https%3A%2F%2Fstackoverflow.com%2Fquestions%2Ftagged%2Fcloudnative-pg)][stackoverflow]
 
-# Run PostgreSQL ® in Kubernetes!
+# Run PostgreSQL® in Kubernetes!
 
-Welcome to **CloudNativePG**, a comprehensive open source platform designed to
-seamlessly manage [PostgreSQL](https://www.postgresql.org/) databases within
-Kubernetes environments, covering the entire operational lifecycle from initial
-deployment to ongoing maintenance.
+Welcome to **CloudNativePG**, the open-source platform designed to seamlessly
+manage the entire operational lifecycle of
+[PostgreSQL](https://www.postgresql.org/) databases within Kubernetes.
 
-The main component is the [CloudNativePG operator](https://github.com/cloudnative-pg/cloudnative-pg).
+## Project Ecosystem
+
+CloudNativePG consists of several specialized repositories, including the
+[core operator](https://github.com/cloudnative-pg/cloudnative-pg),
+container images, and plugins.
+
+> [!TIP]
+> [Explore the full list of repositories and components](https://github.com/cloudnative-pg/governance#repositories).
+
+## Governance, Contributing & Community
+
+We manage the project with a focus on stability, security, and sustainable development.
+
+> [!TIP]
+> **Looking to contribute or participate in the community?**
+> Please refer to our **[Project Contributing Guidelines](https://github.com/cloudnative-pg/governance/blob/main/CONTRIBUTING.md)**.
+> This is our single source of truth for communication channels (Slack,
+> Discussions), contribution workflows, and project policies.
+
+All governance documents, including our [Code of Conduct](https://github.com/cloudnative-pg/governance/blob/main/CODE_OF_CONDUCT.md)
+and [AI Policy](https://github.com/cloudnative-pg/governance/blob/main/AI_POLICY.md),
+are hosted in our **[Governance repository](https://github.com/cloudnative-pg/governance)**.
 
 ## Adopters
 
-A list of publicly known users of CloudNativePG is in [ADOPTERS.md](https://github.com/cloudnative-pg/cloudnative-pg/blob/main/ADOPTERS.md).
-Help us grow our community and CloudNativePG by adding yourself and your
-organization to this list!
-
-## Getting in touch
-
-- [Github Discussions](https://github.com/cloudnative-pg/cloudnative-pg/discussions)
-- [Slack](https://cloud-native.slack.com/archives/C08MAUJ7NPM)
-  (join the [CNCF Slack Workspace](https://communityinviter.com/apps/cloud-native/cncf)).
-- [Twitter](https://twitter.com/CloudNativePg)
-- [Mastodon](https://mastodon.social/@CloudNativePG)
-- [Bluesky](https://bsky.app/profile/cloudnativepg.bsky.social)
-
-## Contributing
-
-You can contribute to CloudNativePG in many ways:
-
-- Raising any issues you find using CloudNativePG
-- Fixing issues by opening Pull Requests
-- Improving documentation
-- Talking about CloudNativePG
+A list of publicly known users of CloudNativePG is available in
+[ADOPTERS.md](https://github.com/cloudnative-pg/cloudnative-pg/blob/main/ADOPTERS.md).
+Help us grow the community by adding your organization!
 
 ## CloudNativePG Community Meetings
 
-Absolutely everyone is welcome to come to any of our meetings. You never need an
-invitation to join us. In fact, we want you to join us, even if you don’t have
-anything you feel like you want to contribute. Just being there is enough!
+Everyone is welcome! No invitation is needed. Just join us to listen or share
+your ideas.
 
-You don’t have to turn on your video. The first time you come, introducing
-yourself is more than enough. Over time, we hope that you feel comfortable
-voicing your opinions, giving feedback on others’ ideas, and even sharing your
-own ideas, and experiences.
+> [!NOTE]
+> You don’t have to turn on your video. The first time you come, introducing
+> yourself is more than enough. Over time, we hope that you feel comfortable
+> voicing your opinions, giving feedback on others’ ideas, and even sharing
+> your own ideas, and experiences.
 
 | What                         | When                                        | Where                                                                                                        | Notes                                                                                                                                                                                                                                            |
 |------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
