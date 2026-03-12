@@ -41,6 +41,12 @@ A list of publicly known users of CloudNativePG is available in
 [ADOPTERS.md](https://github.com/cloudnative-pg/cloudnative-pg/blob/main/ADOPTERS.md).
 Help us grow the community by adding your organization!
 
+## Getting in touch
+
+- [Github Discussions](https://github.com/cloudnative-pg/cloudnative-pg/discussions)
+- [Slack](https://cloud-native.slack.com/archives/C08MAUJ7NPM) (join the [CNCF Slack Workspace](https://communityinviter.com/apps/cloud-native/cncf))
+- [Bluesky](https://bsky.app/profile/cloudnativepg.bsky.social) | [Mastodon](https://mastodon.social/@CloudNativePG) | [Twitter](https://twitter.com/CloudNativePg)
+
 ## CloudNativePG Community Meetings
 
 Everyone is welcome! No invitation is needed. Just join us to listen or share
