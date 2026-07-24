@@ -65,13 +65,13 @@ your ideas.
 
 ### Community/Developers meetings agenda per year
 
-| Year | Agenda                                       |
-|------|----------------------------------------------|
-| 2026 | https://notes.cncf.io/f3dw2PK5TZqcokeWZFbHcw |
-| 2025 | https://notes.cncf.io/s/pq63dhDKZ            |
-| 2024 | https://notes.cncf.io/s/9u6CJT5va            |
-| 2023 | https://notes.cncf.io/s/MNZhOb98P            |
-| 2022 | https://notes.cncf.io/s/L-f5bulgJ            |
+| Year | Agenda                            |
+|------|-----------------------------------|
+| 2026 | https://notes.cncf.io/s/cZt62hTnD |
+| 2025 | https://notes.cncf.io/s/JnymaJh_E |
+| 2024 | https://notes.cncf.io/s/k0e39fzwB |
+| 2023 | https://notes.cncf.io/s/qE5Pb8yy5 |
+| 2022 | https://notes.cncf.io/s/S9LJLvKlb |
 
 ## License
 
