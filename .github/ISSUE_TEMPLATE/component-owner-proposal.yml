@@ -1,6 +1,6 @@
 name: "Propose a Component Owner"
 description: "Nominate a Contributor to become Component Owner of a repository"
-title: "[Component Owner Proposal]: <name> for <repository>"
+title: "[Component Owner Proposal]: <name>"
 labels: ["component-owner-proposal"]
 body:
   - type: markdown
@@ -28,15 +28,6 @@ body:
       label: Proposed Component Owner
       description: GitHub handle of the person being nominated.
       placeholder: "@handle"
-    validations:
-      required: true
-
-  - type: input
-    id: repository
-    attributes:
-      label: Repository
-      description: The single component (repository) this nomination is for. Component Owner status is granted per repository, not org-wide or subproject-wide.
-      placeholder: "e.g. klio"
     validations:
       required: true
 
