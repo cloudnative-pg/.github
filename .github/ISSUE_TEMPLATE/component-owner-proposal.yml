@@ -43,9 +43,9 @@ body:
   - type: input
     id: lfid
     attributes:
-      label: Nominee's Linux Foundation ID (LFID)
-      description: "Component Owner status requires one (see GOVERNANCE.md's Determining Organizational Affiliation section). Look it up, or register one, at https://openprofile.dev -- paste the LFID username or the openprofile.dev profile URL."
-      placeholder: "e.g. jdoe, or https://openprofile.dev/profile/jdoe"
+      label: Nominee's LFID profile
+      description: "Component Owner status requires a Linux Foundation ID (LFID) with the nominee's GitHub account linked to it (see GOVERNANCE.md's Determining Organizational Affiliation section) -- this is what lets CNCF's own tooling map the GitHub handle above to an organization at all. Look it up, or register/link one, at https://openprofile.dev. Paste the profile URL."
+      placeholder: "e.g. https://openprofile.dev/profile/gabriele.bartolini"
     validations:
       required: true
 
@@ -53,7 +53,7 @@ body:
     id: organization
     attributes:
       label: Nominee's organization (employer)
-      description: "Must match what's registered against the LFID above. This is what org-balanced voting and the Steering seat cap actually count -- an LFID with no employer, or the wrong one, silently misstates an organization's real seat count. Use the literal word Independent (not blank, not N/A) if the nominee has no employer tied to their contribution."
+      description: "Must match the LFID profile's own \"Current Organization\" field above, not just what you believe it to be. This is what org-balanced voting and the Steering seat cap actually count -- a profile with no employer set, or the wrong one, silently misstates an organization's real seat count. Use the literal word Independent (not blank, not N/A) if the nominee has no employer tied to their contribution."
       placeholder: "e.g. EDB -- or literally: Independent"
     validations:
       required: true
@@ -68,7 +68,7 @@ body:
           required: true
         - label: I opened this issue inside the target repository itself (see note above), not in governance, .github, or cnpg-infra.
           required: true
-        - label: I checked https://openprofile.dev myself and confirmed the nominee's LFID exists and lists the organization given above (or Independent).
+        - label: I opened the LFID profile above myself and confirmed the nominee's GitHub account is linked to it, and its "Current Organization" field matches the organization given above (or Independent).
           required: true
 
   - type: textarea
