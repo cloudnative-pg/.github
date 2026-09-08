@@ -1,0 +1,111 @@
+name: "Propose a Component Owner"
+description: "Nominate a Contributor to become Component Owner of a repository"
+title: "[Component Owner Proposal]: <name>"
+labels: ["component-owner-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Component Owner proposal
+
+        This template is an org-wide default (defined in `cloudnative-pg/.github`),
+        but **the issue itself must be created in the repository the nominee is
+        being proposed for** -- if you opened "New issue" from that repository's
+        own page, you're already in the right place; don't move this to
+        `governance`, `.github`, or `cnpg-infra`. gitvote reads a repository's
+        own `.gitvote.yml`, so the vote this issue leads to only uses the right
+        voters (that repository's Component Owners) if the issue lives there.
+
+        Promotion process, thresholds, and who may propose: see
+        [CONTRIBUTOR_LADDER.md](https://github.com/cloudnative-pg/governance/blob/main/CONTRIBUTOR_LADDER.md#component-owner)
+        (pending ratification as of this writing -- see
+        [governance's CLAUDE.md](https://github.com/cloudnative-pg/governance/blob/main/CLAUDE.md)
+        for status).
+
+  - type: input
+    id: nominee
+    attributes:
+      label: Proposed Component Owner
+      description: GitHub handle of the person being nominated.
+      placeholder: "@handle"
+    validations:
+      required: true
+
+  - type: input
+    id: lfid
+    attributes:
+      label: Nominee's LFID profile
+      description: "Component Owner status requires a Linux Foundation ID (LFID) with the nominee's GitHub account linked to it (see GOVERNANCE.md's Determining Organizational Affiliation section) -- this is what lets CNCF's own tooling map the GitHub handle above to an organization at all. Look it up, or register/link one, at https://openprofile.dev. Paste the profile URL."
+      placeholder: "e.g. https://openprofile.dev/profile/gabriele.bartolini"
+    validations:
+      required: true
+
+  - type: input
+    id: organization
+    attributes:
+      label: Nominee's organization (employer)
+      description: "Must match the LFID profile's own \"Current Organization\" field above, not just what you believe it to be. This is what org-balanced voting and the Steering seat cap actually count -- a profile with no employer set, or the wrong one, silently misstates an organization's real seat count. Use the literal word Independent (not blank, not N/A) if the nominee has no employer tied to their contribution."
+      placeholder: "e.g. EDB -- or literally: Independent"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: eligibility
+    attributes:
+      label: Proposer eligibility
+      description: "Per CONTRIBUTOR_LADDER.md, a Component Owner nomination must be proposed by an existing Maintainer or Component Owner of this same repository. Nobody here can verify the LFID/organization fields above by API -- this is a self-attestation, same as the two below."
+      options:
+        - label: I am an existing Maintainer or Component Owner of this repository, or an existing Maintainer/Component Owner of this repository asked me to open this issue on their behalf.
+          required: true
+        - label: I opened this issue inside the target repository itself (see note above), not in governance, .github, or cnpg-infra.
+          required: true
+        - label: I opened the LFID profile above myself and confirmed the nominee's GitHub account is linked to it, and its "Current Organization" field matches the organization given above (or Independent).
+          required: true
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Track record / justification
+      description: Why does this contributor merit Component Owner status on this repository? Reference specific contributions -- PRs authored or reviewed, issue triage, sustained involvement, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Relevant links
+      description: PRs, issues, or discussions that support this nomination.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Next steps
+
+        1. Let this issue sit long enough for this repository's other Component
+           Owners to weigh in.
+        2. An existing Maintainer or Component Owner of this repository comments
+           `/vote-component-owner` to open voting: two-thirds majority of this
+           repository's Component Owners, one week, per this repository's own
+           `.gitvote.yml`. If this repository has fewer than three named
+           Component Owners (or none), the vote defaults to the subproject
+           maintainer committee instead -- see
+           [CONTRIBUTOR_LADDER.md](https://github.com/cloudnative-pg/governance/blob/main/CONTRIBUTOR_LADDER.md#component-owner).
+        3. If the vote passes: open a PR against
+           [cloudnative-pg/cnpg-infra](https://github.com/cloudnative-pg/cnpg-infra)
+           adding the nominee to this repository's `owners:` list in
+           `repo-tiers.yaml`. Once merged, `scripts/sync-project-owner-teams.sh
+           <repository> --apply` (run by an admin, from their own machine --
+           see that repo's README) grants the actual GitHub access.
+           Automating this step from a passed vote is on the roadmap; for now
+           it's a manual follow-up.
+        4. The LFID and organization collected above have nowhere durable to
+           land yet: `.project`'s `maintainers.yaml` doesn't have fields for
+           either today (confirmed against the
+           [dot-project schema](https://github.com/cncf/automation/tree/main/utilities/dot-project)
+           -- it only lists GitHub handles), which is exactly the open item
+           GOVERNANCE.md's Determining Organizational Affiliation section
+           flags. Until that's resolved, note the organization in this
+           issue and in the `cnpg-infra` PR from step 3, so it's at least
+           on the record somewhere.
