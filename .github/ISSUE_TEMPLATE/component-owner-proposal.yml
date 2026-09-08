@@ -40,15 +40,35 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: lfid
+    attributes:
+      label: Nominee's Linux Foundation ID (LFID)
+      description: "Component Owner status requires one (see GOVERNANCE.md's Determining Organizational Affiliation section). Look it up, or register one, at https://openprofile.dev -- paste the LFID username or the openprofile.dev profile URL."
+      placeholder: "e.g. jdoe, or https://openprofile.dev/profile/jdoe"
+    validations:
+      required: true
+
+  - type: input
+    id: organization
+    attributes:
+      label: Nominee's organization (employer)
+      description: "Must match what's registered against the LFID above. This is what org-balanced voting and the Steering seat cap actually count -- an LFID with no employer, or the wrong one, silently misstates an organization's real seat count. Use the literal word Independent (not blank, not N/A) if the nominee has no employer tied to their contribution."
+      placeholder: "e.g. EDB -- or literally: Independent"
+    validations:
+      required: true
+
   - type: checkboxes
     id: eligibility
     attributes:
       label: Proposer eligibility
-      description: "Per CONTRIBUTOR_LADDER.md, a Component Owner nomination must be proposed by an existing Maintainer or Component Owner of this same repository."
+      description: "Per CONTRIBUTOR_LADDER.md, a Component Owner nomination must be proposed by an existing Maintainer or Component Owner of this same repository. Nobody here can verify the LFID/organization fields above by API -- this is a self-attestation, same as the two below."
       options:
         - label: I am an existing Maintainer or Component Owner of this repository, or an existing Maintainer/Component Owner of this repository asked me to open this issue on their behalf.
           required: true
         - label: I opened this issue inside the target repository itself (see note above), not in governance, .github, or cnpg-infra.
+          required: true
+        - label: I checked https://openprofile.dev myself and confirmed the nominee's LFID exists and lists the organization given above (or Independent).
           required: true
 
   - type: textarea
@@ -89,3 +109,12 @@ body:
            see that repo's README) grants the actual GitHub access.
            Automating this step from a passed vote is on the roadmap; for now
            it's a manual follow-up.
+        4. The LFID and organization collected above have nowhere durable to
+           land yet: `.project`'s `maintainers.yaml` doesn't have fields for
+           either today (confirmed against the
+           [dot-project schema](https://github.com/cncf/automation/tree/main/utilities/dot-project)
+           -- it only lists GitHub handles), which is exactly the open item
+           GOVERNANCE.md's Determining Organizational Affiliation section
+           flags. Until that's resolved, note the organization in this
+           issue and in the `cnpg-infra` PR from step 3, so it's at least
+           on the record somewhere.
