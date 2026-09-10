@@ -17,10 +17,10 @@ body:
         voters (that repository's Component Owners) if the issue lives there.
 
         Promotion process, thresholds, and who may propose: see
-        [CONTRIBUTOR_LADDER.md](https://github.com/cloudnative-pg/governance/blob/main/CONTRIBUTOR_LADDER.md#component-owner)
-        (pending ratification as of this writing -- see
-        [governance's CLAUDE.md](https://github.com/cloudnative-pg/governance/blob/main/CLAUDE.md)
-        for status).
+        [CONTRIBUTOR_LADDER.md](https://github.com/cloudnative-pg/governance/blob/main/CONTRIBUTOR_LADDER.md#component-owner).
+        The federated model it describes is pending ratification; progress
+        is tracked in
+        [cloudnative-pg/governance#67](https://github.com/cloudnative-pg/governance/issues/67).
 
   - type: input
     id: nominee
