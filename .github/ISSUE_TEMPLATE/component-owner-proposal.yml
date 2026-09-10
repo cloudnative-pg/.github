@@ -54,9 +54,9 @@ body:
     id: eligibility
     attributes:
       label: Proposer eligibility
-      description: "Per CONTRIBUTOR_LADDER.md, a Component Owner nomination must be proposed by an existing Maintainer or Component Owner of this same repository. Nobody here can verify the LFID/organization fields above by API -- this is a self-attestation, same as the two below."
+      description: "Per CONTRIBUTOR_LADDER.md, a nomination comes from a member of the body that decides it: this repository's Component Owners, or, where fewer than three of them are named, its subproject's maintainer committee. If that isn't you, ask one of them to open this issue instead of opening it on their behalf, so the record shows who actually nominated. Nobody here can verify the LFID/organization fields above by API -- this is a self-attestation, same as the two below."
       options:
-        - label: I am an existing Maintainer or Component Owner of this repository, or an existing Maintainer/Component Owner of this repository asked me to open this issue on their behalf.
+        - label: I am a Component Owner of this repository, or a member of its subproject's maintainer committee.
           required: true
         - label: I opened this issue inside the target repository itself (see note above), not in governance, .github, or cnpg-infra.
           required: true
