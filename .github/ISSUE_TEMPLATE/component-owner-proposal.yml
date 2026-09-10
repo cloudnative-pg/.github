@@ -17,9 +17,10 @@ body:
         voters (that repository's Component Owners) if the issue lives there.
 
         Promotion process, thresholds, and who may propose: see
-        [CONTRIBUTOR_LADDER.md](https://github.com/cloudnative-pg/governance/blob/main/CONTRIBUTOR_LADDER.md#component-owner).
-        The federated model it describes is pending ratification; progress
-        is tracked in
+        `CONTRIBUTOR_LADDER.md` in
+        [cloudnative-pg/governance](https://github.com/cloudnative-pg/governance).
+        That document arrives with the federated-model rewrite, which is
+        pending ratification; progress is tracked in
         [cloudnative-pg/governance#67](https://github.com/cloudnative-pg/governance/issues/67).
 
   - type: input
@@ -35,7 +36,7 @@ body:
     id: lfid
     attributes:
       label: Nominee's LFID profile
-      description: "Component Owner status requires a Linux Foundation ID (LFID) with the nominee's GitHub account linked to it (see GOVERNANCE.md's Determining Organizational Affiliation section) -- this is what lets CNCF's own tooling map the GitHub handle above to an organization at all. Look it up, or register/link one, at https://openprofile.dev. Paste the profile URL."
+      description: "Component Owner status requires a Linux Foundation ID (LFID) with the nominee's GitHub account linked to it -- this is what lets CNCF's own tooling map the GitHub handle above to an organization at all. Look it up, or register/link one, at https://openprofile.dev. Paste the profile URL."
       placeholder: "e.g. https://openprofile.dev/profile/gabriele.bartolini"
     validations:
       required: true
@@ -90,8 +91,8 @@ body:
            repository's Component Owners, one week, per this repository's own
            `.gitvote.yml`. If this repository has fewer than three named
            Component Owners (or none), the vote defaults to the subproject
-           maintainer committee instead -- see
-           [CONTRIBUTOR_LADDER.md](https://github.com/cloudnative-pg/governance/blob/main/CONTRIBUTOR_LADDER.md#component-owner).
+           maintainer committee instead -- see `CONTRIBUTOR_LADDER.md` in the
+           governance repository.
         3. If the vote passes: open a PR against
            [cloudnative-pg/cnpg-infra](https://github.com/cloudnative-pg/cnpg-infra)
            adding the nominee to this repository's `owners:` list in
@@ -104,8 +105,6 @@ body:
            land yet: `.project`'s `maintainers.yaml` doesn't have fields for
            either today (confirmed against the
            [dot-project schema](https://github.com/cncf/automation/tree/main/utilities/dot-project)
-           -- it only lists GitHub handles), which is exactly the open item
-           GOVERNANCE.md's Determining Organizational Affiliation section
-           flags. Until that's resolved, note the organization in this
-           issue and in the `cnpg-infra` PR from step 3, so it's at least
-           on the record somewhere.
+           -- it only lists GitHub handles). Until that's resolved, note the
+           organization in this issue and in the `cnpg-infra` PR from step 3,
+           so it's at least on the record somewhere.
