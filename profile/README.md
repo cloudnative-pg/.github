@@ -60,7 +60,7 @@ your ideas.
 
 | What                         | When                                        | Where                                                                                                        | Notes                                                                                                                                                                                                                                            |
 |------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Community/Developers meeting | Every third Thursday, 4PM CET/CEST  | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg) | [Agenda/minutes](https://notes.cncf.io/IKJxyuSsQnWkIqu7DnjFaA), [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg) |
+| [CloudNativePG Core](https://github.com/cloudnative-pg/governance/blob/main/subprojects/core.md) meeting | 3rd Thursday of the month, 4PM CET/CEST  | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg) | [Agenda/minutes](https://notes.cncf.io/IKJxyuSsQnWkIqu7DnjFaA), [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/cloudnativepg) |
 
 ### Community/Developers meetings agenda per year
 
